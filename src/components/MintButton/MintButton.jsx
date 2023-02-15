@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Link } from "react-router-dom";
 
 const MintButton = () => {
@@ -10,7 +8,7 @@ const MintButton = () => {
           <img
             src={require("../../assets/images/mint.png")}
             className="w-48 cursor-pointer"
-            alt="mint image"
+            alt="mint"
           />
         </Link>
       </div>

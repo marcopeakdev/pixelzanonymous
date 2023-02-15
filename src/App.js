@@ -1,6 +1,6 @@
-import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LandingPage from "./pages/LandingPage/LandingPage";
+
+import LandingPage from "./pages/Landing/Landing";
 import MintPage from "./pages/Mint/Mint";
 
 function App() {

@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const [isClosed, setIsClosed] = useState(true);
 
   return (
-    <React.Fragment>
+    <>
       <div className="bg-black lg:hidden" id="header-menu">
-        <div className="z-50 flex justify-between items-center w-screen h-48">
+        <div className="z-50 flex justify-between items-center h-48">
           <img
             src={require("../../assets/images/anonmask.png")}
             alt="anonmask.png"
@@ -76,7 +76,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

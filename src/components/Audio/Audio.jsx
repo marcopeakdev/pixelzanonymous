@@ -1,6 +1,4 @@
-import React from "react";
-
-import './Audio.scss';
+import "./Audio.scss";
 
 const Audio = () => {
   return (

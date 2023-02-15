@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import OnBoarding from "../../components/OnBoarding/OnBoarding";
 
 import Audio from "../../components/Audio/Audio";
@@ -12,11 +12,11 @@ import Faq from "../../components/Faq/Faq";
 import Partner from "../../components/Partner/Partner";
 import Footer from "../../components/Footer/Footer";
 
-const LandingPage = () => {
+const Landing = () => {
   const [isSkipped, setIsSkipped] = useState(false);
 
   return (
-    <React.Fragment>
+    <>
       {!isSkipped && <OnBoarding onClickButton={() => setIsSkipped(true)} />}
       {isSkipped && (
         <div className="landing-page text-white bg-black tw">
@@ -32,8 +32,8 @@ const LandingPage = () => {
           <Footer />
         </div>
       )}
-    </React.Fragment>
+    </>
   );
 };
 
-export default LandingPage;
+export default Landing;

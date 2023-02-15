@@ -1,10 +1,10 @@
-import React from "react";
-
-const Partner = ({ onClick, children }) => {
+const Partner = () => {
   return (
-    <React.Fragment>
+    <>
       <div id="partner-heading">
-        <h1 className="text-center text-[#04fd3f] text-4xl">Meet our Parters</h1>
+        <h1 className="text-center text-[#04fd3f] text-4xl">
+          Meet our Parters
+        </h1>
       </div>
       <div className="flex flex-col lg:flex-row justify-center gap-x-[50px] items-center py-12">
         <a
@@ -122,7 +122,7 @@ const Partner = ({ onClick, children }) => {
           />
         </a>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 
