@@ -6,7 +6,7 @@ const members = [
     text: "Hey guys! My name is Ruben, most people know me as PacassoNFT ! Let me tell you a little bit about myself. I am 27 years old, I live in the East side, but have family all around mainly in Puerto Rico. Throughout my whole life I've loved two things... helping people and gaming.",
   },
   {
-    name: "MKT",
+    name: "mkt",
     text: "Raymond is a veteran of the United States Marine Corps, security is always on his mind. He dedicates most of his time to the ever growing Web 3/NFT field. He has worked on multiple projects, as a security/admin on discords. He loves to network, and hear new ideas/innovations!",
   },
   {
