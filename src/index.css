@@ -6,7 +6,7 @@
 @font-face {
   font-family: "tw";
   src: local("tw"),
-   url('./assets/fonts/tw.ttf') format("opentype");
+   url('./assets/fonts/tw.otf') format("opentype");
   }
 
 body {

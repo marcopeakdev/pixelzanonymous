@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import OnBoarding from "../../components/OnBoarding/OnBoarding";
-import "./LandingPage.scss";
-
 
 import Audio from "../../components/Audio/Audio";
 import Header from "../../components/Header/Header";
@@ -18,8 +16,8 @@ const LandingPage = () => {
   const [isSkipped, setIsSkipped] = useState(false);
 
   return (
-    <React.Fragment className="bg-black">
-      {!isSkipped && <OnBoarding onClickSkip={() => setIsSkipped(true)} />}
+    <React.Fragment>
+      {!isSkipped && <OnBoarding onClickButton={() => setIsSkipped(true)} />}
       {isSkipped && (
         <div className="landing-page text-white bg-black tw">
           <Audio />

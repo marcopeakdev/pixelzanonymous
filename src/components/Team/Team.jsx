@@ -4,7 +4,7 @@ const Team = () => {
   return (
     <>
       <div id="team-heading">
-        <img src={require("../../assets/images/team.png")} />
+        <img src={require("../../assets/images/team.png")} alt="team" />
       </div>
 
       <div className="relative flex flex-col items-center justify-center px-4 py-36 ">
@@ -17,6 +17,7 @@ const Team = () => {
                     <img
                       src={require("../../assets/images/pacasso.jpg")}
                       className="max-h-48"
+                      alt="pacasso"
                     />
                   </div>
                 </div>
@@ -46,6 +47,7 @@ const Team = () => {
           <img
             src={require("../../assets/images/teamboxes.png")}
             className="hidden lg:flex z-10 max-h-[800px] "
+            alt="teamboxes"
           />
           <div className="w-full my-2 max-w-[400px]">
             <div className="border-[#04fd3f] border-4">
@@ -55,6 +57,7 @@ const Team = () => {
                     <img
                       src={require("../../assets/images/mkt.jpg")}
                       className="max-h-48"
+                      alt="mkt"
                     />
                   </div>
                 </div>
@@ -91,6 +94,7 @@ const Team = () => {
                     <img
                       src={require("../../assets/images/josway.png")}
                       className="max-h-48"
+                      alt="josway"
                     />
                   </div>
                 </div>
@@ -126,6 +130,7 @@ const Team = () => {
                     <img
                       src={require("../../assets/images/gt.png")}
                       className="max-h-48"
+                      alt="gt"
                     />
                   </div>
                 </div>

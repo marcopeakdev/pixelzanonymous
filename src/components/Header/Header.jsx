@@ -1,45 +1,57 @@
-import React from "react";
-
-import "./Header.scss";
+import React, { useState } from "react";
 
 const Header = () => {
+  const [isClosed, setIsClosed] = useState(true);
+
   return (
     <React.Fragment>
-      <div class="bg-black" id="header-menu">
-        <div class="z-50 flex justify-between items-center w-screen h-48">
+      <div className="bg-black lg:hidden" id="header-menu">
+        <div className="z-50 flex justify-between items-center w-screen h-48">
           <img
             src={require("../../assets/images/anonmask.png")}
             alt="anonmask.png"
             height="100"
             width="100"
-            class=" px-4 "
+            className=" px-4 "
           />
-          <div class="flex flex-col">
-            <a href="#home" class="text-2xl ">
-              home
-            </a>
-            <a href="#roadmap-heading" class="text-2xl">
-              roadmap
-            </a>
-            <a href="#team-heading" class="text-2xl ">
-              team
-            </a>
-            <a href="#faq-heading" class="text-2xl">
-              faq
-            </a>
-          </div>
-          <button>
-            <img
-              src={require("../../assets/images/menu.svg").default}
-              alt="menu-icon"
-              height="100"
-              width="100"
-              class=" px-4"
-            />
+          {!isClosed && (
+            <div className="flex flex-col">
+              <a href="#home" className="text-2xl ">
+                home
+              </a>
+              <a href="#roadmap-heading" className="text-2xl">
+                roadmap
+              </a>
+              <a href="#team-heading" className="text-2xl ">
+                team
+              </a>
+              <a href="#faq-heading" className="text-2xl">
+                faq
+              </a>
+            </div>
+          )}
+          <button onClick={() => setIsClosed(isClosed ? false : true)}>
+            {isClosed ? (
+              <img
+                src={require("../../assets/images/menu.svg").default}
+                alt="menuicon"
+                height="100"
+                width="100"
+                className=" px-4"
+              />
+            ) : (
+              <img
+                src={require("../../assets/images/close.svg").default}
+                alt="close icon"
+                height="100"
+                width="100"
+                className=" px-4"
+              ></img>
+            )}
           </button>
         </div>
       </div>
-      <div className="bg-black" id="header">
+      <div className="bg-black lg:block hidden" id="header">
         <div className="w-full flex items-center justify-evenly py-12 text-[#04fd3f] font-bold">
           <div className="border-b-[5px] border-[#04fd3f] flex items-center justify-evenly w-full">
             <a href="#home" className="md:text-5xl xl:text-7xl">

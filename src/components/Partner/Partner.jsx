@@ -4,9 +4,9 @@ const Partner = ({ onClick, children }) => {
   return (
     <React.Fragment>
       <div id="partner-heading">
-        <h1 class="text-center text-[#04fd3f] text-4xl">Meet our Parters</h1>
+        <h1 className="text-center text-[#04fd3f] text-4xl">Meet our Parters</h1>
       </div>
-      <div class="flex flex-col lg:flex-row justify-center gap-x-[50px] items-center py-12">
+      <div className="flex flex-col lg:flex-row justify-center gap-x-[50px] items-center py-12">
         <a
           href="https://twitter.com/the_x2y2?s=21&amp;t=TtiFy3twBz9Gts3884mtFw"
           target="_blank"
@@ -15,7 +15,7 @@ const Partner = ({ onClick, children }) => {
           <svg
             viewBox="0 0 134 40"
             focusable="false"
-            class="h-12 w-auto text-white "
+            className="h-12 w-auto text-white "
           >
             <path
               d="M52 30L56.0652 20.2266L52 10.17H57.085L60.2011 18.5127H60.6261L63.7989 10.17H68.8839L64.7762 20.2266L68.8839 30H63.7989L60.6261 21.8839H60.2153L57.085 30H52Z"
@@ -46,8 +46,8 @@ const Partner = ({ onClick, children }) => {
               fill="url(#paint1_linear_13610_53694)"
             ></path>
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M29.5999 20C29.5999 25.3019 25.3018 29.6 19.9999 29.6C14.698 29.6 10.3999 25.3019 10.3999 20C10.3999 14.6981 14.698 10.4 19.9999 10.4C25.3018 10.4 29.5999 14.6981 29.5999 20ZM26.3999 20C26.3999 23.5346 23.5345 26.4 19.9999 26.4C16.4653 26.4 13.5999 23.5346 13.5999 20C13.5999 16.4654 16.4653 13.6 19.9999 13.6C23.5345 13.6 26.3999 16.4654 26.3999 20Z"
               fill="url(#paint2_linear_13610_53694)"
             ></path>
@@ -60,8 +60,8 @@ const Partner = ({ onClick, children }) => {
                 y2="19.4483"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#00E0FF"></stop>
-                <stop offset="1" stop-color="#562EC8"></stop>
+                <stop stopColor="#00E0FF"></stop>
+                <stop offset="1" stopColor="#562EC8"></stop>
               </linearGradient>
               <linearGradient
                 id="paint1_linear_13610_53694"
@@ -71,8 +71,8 @@ const Partner = ({ onClick, children }) => {
                 y2="19.4483"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#00E0FF"></stop>
-                <stop offset="1" stop-color="#562EC8"></stop>
+                <stop stopColor="#00E0FF"></stop>
+                <stop offset="1" stopColor="#562EC8"></stop>
               </linearGradient>
               <linearGradient
                 id="paint2_linear_13610_53694"
@@ -82,8 +82,8 @@ const Partner = ({ onClick, children }) => {
                 y2="19.4483"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#00E0FF"></stop>
-                <stop offset="1" stop-color="#562EC8"></stop>
+                <stop stopColor="#00E0FF"></stop>
+                <stop offset="1" stopColor="#562EC8"></stop>
               </linearGradient>
             </defs>
           </svg>
@@ -95,7 +95,7 @@ const Partner = ({ onClick, children }) => {
         >
           <img
             src={require("../../assets/images/asteria.png")}
-            class="h-12"
+            className="h-12"
             alt="asteria logo"
           />
         </a>
@@ -106,7 +106,7 @@ const Partner = ({ onClick, children }) => {
         >
           <img
             src={require("../../assets/images/aic.png")}
-            class="h-24 rounded-full"
+            className="h-24 rounded-full"
             alt="aic logo"
           />
         </a>
@@ -117,7 +117,7 @@ const Partner = ({ onClick, children }) => {
         >
           <img
             src={require("../../assets/images/a.jpg")}
-            class="h-24 rounded-full"
+            className="h-24 rounded-full"
             alt="a logo"
           />
         </a>

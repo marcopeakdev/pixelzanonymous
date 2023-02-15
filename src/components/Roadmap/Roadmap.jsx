@@ -6,7 +6,7 @@ const Roadmap = () => {
       <div id="roadmap-heading">
         <img
           src={require("../../assets/images/roadmap.png")}
-          alt="roadmap image"
+          alt="roadmap"
         />
       </div>
 
@@ -115,7 +115,7 @@ const Roadmap = () => {
         <img
           src={require("../../assets/images/boxes.png")}
           className="hidden lg:flex lg:absolute z-10 w-auto h-full"
-          alt="boxes image"
+          alt="boxes"
         />
       </div>
     </>

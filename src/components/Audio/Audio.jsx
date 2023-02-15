@@ -1,11 +1,13 @@
 import React from "react";
 
+import './Audio.scss';
+
 const Audio = () => {
   return (
     <>
       <div className="flex justify-center">
         <audio
-          autoplay="autoplay"
+          autoPlay="autoPlay"
           controls="controls"
           loop="loop"
           src={require("../../assets/song/song.mp3")}

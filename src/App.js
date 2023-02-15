@@ -9,6 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="*" element={<LandingPage />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/Mint" element={<MintPage />} />
         </Routes>
       </Router>
