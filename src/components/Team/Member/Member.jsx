@@ -1,12 +1,12 @@
-const Member = ({memberName, text, type}) => {
+const Member = ({ memberName, text, imgSrc }) => {
   return (
-    <div className="w-full my-2 max-w-[400px]">
+    <div className="w-full max-w-[400px]">
       <div className="border-[#04fd3f] border-4">
         <div className="border-[#000] border-2">
           <div className="border-[#04fd3f] border-4 px-4 py-4">
             <div className="flex justify-center">
               <img
-                src={require("../../../assets/images/" + memberName +  ".jpg")}
+                src={require(`../../../assets/images/${imgSrc}`)}
                 className="max-h-48"
                 alt={memberName}
               />
@@ -24,9 +24,7 @@ const Member = ({memberName, text, type}) => {
       <div className="border-[#04fd3f] border-4 px-4 py-2 ">
         <div className="">
           <div className="text-primary-content peer-checked:text-secondary-content">
-            <p className="text-md text-center">
-              {text}
-            </p>
+            <p className="text-md text-center">{text}</p>
           </div>
         </div>
       </div>

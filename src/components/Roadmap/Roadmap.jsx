@@ -48,7 +48,7 @@ const Roadmap = () => {
       >
         <div className=" grid px-4 lg:px-0 lg:grid-cols-2 gap-y-4 lg:gap-x-36 xl:gap-x-32 lg:w-[1000px] xl:w-[1280px] 2xl:w-[1350px] 2xl:gap-x-28">
           {datas.map((item, id) => (
-            <MapItem text={item.text} id={item.id} key={item.id} />
+            <MapItem text={item.text} id={item.id} key={id} />
           ))}
         </div>
         <img

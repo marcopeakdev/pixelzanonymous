@@ -11,7 +11,7 @@ const Accordion = ({ question, answer, id }) => {
                     className="accordion-button collapsed relative flex items-center w-full py-4 px-6 bg-black border-0 rounded-none transition"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target={"#collapse" + id}
+                    data-bs-target={`"#collapse${id}`}
                     aria-expanded="false"
                   >
                     <p className="collapse-title text-left text-2xl font-semibold text-primary-content peer-checked:text-secondary-content">
@@ -20,7 +20,7 @@ const Accordion = ({ question, answer, id }) => {
                   </button>
                 </h2>
                 <div
-                  id={"collapse" + id}
+                  id={`collapse${id}`}
                   className="accordion-collapse collapse"
                 >
                   <div className="accordion-body collapse-content text-primary-content peer-checked:text-secondary-content ">

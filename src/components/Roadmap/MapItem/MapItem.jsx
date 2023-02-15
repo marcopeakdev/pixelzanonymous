@@ -7,7 +7,7 @@ const MapItem = ({ id, text }) => {
             <div className="border-[#04fd3f] border-4 px-4 py-2">
               <div className="">
                 <div className="tw text-2xl font-semibold text-primary-content peer-checked:text-secondary-content">
-                  Stage + {id}:
+                  Stage {id}:
                 </div>
                 <div className="text-primary-content peer-checked:text-secondary-content">
                   <p className="text-md">{text}</p>
