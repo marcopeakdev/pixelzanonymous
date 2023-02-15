@@ -8,7 +8,7 @@ const OnBoarding = ({ onClickButton }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsImgLoaded(true);
-    }, 31000);
+    }, 32000);
     return () => clearTimeout(timer);
   }, []);
 
