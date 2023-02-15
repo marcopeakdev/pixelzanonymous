@@ -53,7 +53,7 @@ const Faq = () => {
   return (
     <>
       <div id="faq-heading">
-        <img src={require("../../assets/images/faq.png")} alt="faq-logo" />
+        <img src="./images/faq.png" alt="faq-logo" />
       </div>
       <div className="lg:max-w-[1000px] xl:max-w-[1200px] 2xl:max-w-[1440px] mx-auto lg:mt-16 py-12 px-4 lg:px-0 faq">
         {qa.map((item, id) => (

@@ -94,7 +94,7 @@ const Partner = () => {
           rel="noreferrer"
         >
           <img
-            src={require("../../assets/images/asteria.png")}
+            src="./images/asteria.png"
             className="h-12"
             alt="asteria logo"
           />
@@ -105,7 +105,7 @@ const Partner = () => {
           rel="noreferrer"
         >
           <img
-            src={require("../../assets/images/aic.png")}
+            src="./images/aic.png"
             className="h-24 rounded-full"
             alt="aic logo"
           />
@@ -116,7 +116,7 @@ const Partner = () => {
           rel="noreferrer"
         >
           <img
-            src={require("../../assets/images/a.jpg")}
+            src="./images/a.jpg"
             className="h-24 rounded-full"
             alt="a logo"
           />

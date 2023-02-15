@@ -17,7 +17,7 @@ const OnBoarding = ({ onClickButton }) => {
       {!isImgLoaded && (
         <button className="absolute z-20 top-2 left-2" onClick={onClickButton}>
           <img
-            src={require("../../assets/images/skip.png")}
+            src="./images/skip.png"
             alt="skip button"
             className="w-24"
           />
@@ -27,7 +27,7 @@ const OnBoarding = ({ onClickButton }) => {
       {isImgLoaded && <Button onClick={onClickButton}>ENTER</Button>}
 
       <img
-        src={require("../../assets/images/bg.gif")}
+        src="./images/bg.gif"
         alt="background"
         id="imgBg"
         className="absolute z-10 w-auto h-full min-w-full max-w-screen"

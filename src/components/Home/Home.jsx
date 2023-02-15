@@ -7,13 +7,13 @@ const Home = () => {
       >
         <div>
           <img
-            src={require("../../assets/images/walk.gif")}
+            src="./images/walk.gif"
             className="max-h-[40rem]"
             alt="walk"
           />
         </div>
         <img
-          src={require("../../assets/images/hp.png")}
+          src="./images/hp.png"
           className="absolute z-10 w-auto h-full"
           alt="hp"
         />

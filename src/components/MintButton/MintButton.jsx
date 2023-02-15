@@ -6,7 +6,7 @@ const MintButton = () => {
       <div className="flex justify-center py-24">
         <Link to="/mint">
           <img
-            src={require("../../assets/images/mint.png")}
+            src="./images/mint.png"
             className="w-48 cursor-pointer"
             alt="mint"
           />

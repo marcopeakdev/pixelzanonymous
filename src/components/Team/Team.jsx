@@ -27,7 +27,7 @@ const Team = () => {
   return (
     <>
       <div id="team-heading">
-        <img src={require("../../assets/images/team.png")} alt="team" />
+        <img src="./images/team.png" alt="team" />
       </div>
 
       <div className="relative flex flex-col items-center justify-center px-4 py-36 ">
@@ -39,7 +39,7 @@ const Team = () => {
             imgSrc={members[0]["imgSrc"]}
           />
           <img
-            src={require("../../assets/images/teamboxes.png")}
+            src="./images/teamboxes.png"
             className="hidden lg:flex z-10 max-h-[800px] "
             alt="teamboxes"
           />

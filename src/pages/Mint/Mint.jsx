@@ -13,7 +13,7 @@ const Mint = () => {
             <h2 className=" text-2xl md:text-4xl mt-12">CONNECTING WEB3</h2>
           </div>
           <img
-            src={require("../../assets/images/mint_screen.gif")}
+            src="./images/mint_screen.gif"
             className="absolute z-10 w-auto h-full min-w-full max-w-screen object-cover"
             alt="mint screen"
           />

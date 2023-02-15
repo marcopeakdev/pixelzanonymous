@@ -6,7 +6,7 @@ const Member = ({ memberName, text, imgSrc }) => {
           <div className="border-[#04fd3f] border-4 px-4 py-4">
             <div className="flex justify-center">
               <img
-                src={require(`../../../assets/images/${imgSrc}`)}
+                src={`./images/${imgSrc}`}
                 className="max-h-48"
                 alt={memberName}
               />

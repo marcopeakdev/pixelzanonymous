@@ -8,7 +8,7 @@ const Header = () => {
       <div className="bg-black lg:hidden" id="header-menu">
         <div className="z-50 flex justify-between items-center h-48">
           <img
-            src={require("../../assets/images/anonmask.png")}
+            src="./images/anonmask.png"
             alt="anonmask.png"
             height="100"
             width="100"
@@ -33,7 +33,7 @@ const Header = () => {
           <button onClick={() => setIsClosed(isClosed ? false : true)}>
             {isClosed ? (
               <img
-                src={require("../../assets/images/menu.svg").default}
+                src="./images/menu.svg"
                 alt="menuicon"
                 height="100"
                 width="100"
@@ -41,7 +41,7 @@ const Header = () => {
               />
             ) : (
               <img
-                src={require("../../assets/images/close.svg").default}
+                src="./images/close.svg"
                 alt="close icon"
                 height="100"
                 width="100"
@@ -62,7 +62,7 @@ const Header = () => {
             </a>
           </div>
           <img
-            src={require("../../assets/images/anonmask.png")}
+            src="./images/anonmask.png"
             className="max-h-48"
             alt="anonmask"
           />

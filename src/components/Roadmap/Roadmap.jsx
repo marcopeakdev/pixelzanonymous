@@ -6,10 +6,10 @@ const datas = [
     text: "All about growing the presence of the Pixelz Anonymous family through unpaid marketing efforts, developing partnerships with influential projects in the space, and brand management.",
   },
   {
-    text: ""
+    text: "",
   },
   {
-    text: ""
+    text: "",
   },
   {
     id: "2",
@@ -20,10 +20,10 @@ const datas = [
     text: "Tighten security. Finalize website, and smart contract. Have our smart contract audited by an external source. Continue working for mint, and sell out.",
   },
   {
-    text: ""
+    text: "",
   },
   {
-    text: ""
+    text: "",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const Roadmap = () => {
   return (
     <>
       <div id="roadmap-heading">
-        <img src={require("../../assets/images/roadmap.png")} alt="roadmap" />
+        <img src="./images/roadmap.png" alt="roadmap" />
       </div>
 
       <div
@@ -52,7 +52,7 @@ const Roadmap = () => {
           ))}
         </div>
         <img
-          src={require("../../assets/images/boxes.png")}
+          src="./images/boxes.png"
           className="hidden lg:flex lg:absolute z-10 w-auto h-full"
           alt="boxes"
         />
